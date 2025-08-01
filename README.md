@@ -1,11 +1,11 @@
 # Autism Spectrum Disorder (ASD) Prediction Project
 This project aims to develop a machine learning model to predict the likelihood of Autism Spectrum Disorder in adults based on responses to the AQ-10 questionnaire and demographic data. The project includes a full data science workflow from data cleaning and exploratory analysis to model training, evaluation, and deployment as an interactive web application using Streamlit.
 
-## Live Demo
+## 🌐 Live Demo
 (Optional: Insert a link to your deployed Streamlit app here once it's live)
 [Link to Live App]
 
-## Features
+## ✨ Features
 - Data Cleaning & Preprocessing: Handles missing values, inconsistencies, and categorical data.
 
 - Exploratory Data Analysis (EDA): Visualizes data distributions and correlations to uncover insights.
@@ -18,7 +18,7 @@ This project aims to develop a machine learning model to predict the likelihood 
 
 - Interactive Web App: A user-friendly web interface built with Streamlit that allows users to input their data and get a real-time prediction.
 
-## Methodology
+## 🧪 Methodology
 The project follows a standard machine learning workflow:
 
 ### 1. Data Source
@@ -55,14 +55,14 @@ Heatmap revealed a perfect correlation (1.00) between the result feature and the
 
 - Final Evaluation: The tuned Random Forest model was evaluated on the unseen test set.
 
-## Results
+## 📈 Results
 The final model achieved an overall accuracy of 82% on the test set.
 
 Recall for ASD (Class 1) is 64%: This is the most critical metric for this use case. It means the model correctly identifies 64% of all actual ASD-positive cases. While a good start, it also means 36% are missed (false negatives).
 
 Precision for ASD (Class 1) is 59%: When the model predicts a user has ASD, it is correct 59% of the time.
 
-## How to Run This Project Locally
+## 🧰 How to Run This Project Locally
 ### Prerequisites
 - Python 3.8+
 ### Instructions
@@ -93,12 +93,19 @@ streamlit run app.py
 ```
 The application will open in your web browser.
 
-### Technologies Used
-- Python
-- Pandas & NumPy for data manipulation
-- Scikit-learn for modeling and preprocessing
-- XGBoost for modeling
-- Matplotlib & Seaborn for data visualization
-- Imbalanced-learn for SMOTE
-- Streamlit for the interactive web application
-- Jupyter Notebook for experimentation
+### 🛠️ Technologies Used
+- 🐍 Python
+
+- 🧮 Pandas & NumPy for data manipulation
+
+- 🧠 Scikit-learn for modeling and preprocessing
+
+- ⚡ XGBoost for modeling
+
+- 📊 Matplotlib & Seaborn for data visualization
+
+- ⚖️ Imbalanced-learn for SMOTE
+
+- 🌐 Streamlit for the interactive web app
+
+- 📓 Jupyter Notebook for experimentation
