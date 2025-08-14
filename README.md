@@ -2,8 +2,9 @@
 This project aims to develop a machine learning model to predict the likelihood of Autism Spectrum Disorder in adults based on responses to the AQ-10 questionnaire and demographic data. The project includes a full data science workflow from data cleaning and exploratory analysis to model training, evaluation, and deployment as an interactive web application using Streamlit.
 
 ## 🌐 Live Demo
-(Optional: Insert a link to your deployed Streamlit app here once it's live)
-[Link to Live App]
+<img width="1919" height="851" alt="Image" src="https://github.com/user-attachments/assets/3d411c33-1f67-4e66-a63a-13a00200fb15" />
+<img width="1907" height="841" alt="Image" src="https://github.com/user-attachments/assets/5d188404-d15c-4162-b4b9-c97aed27d1e2" />
+<img width="1903" height="848" alt="Image" src="https://github.com/user-attachments/assets/ba94ebb0-1c0e-418f-82bc-341ab3a159ac" />
 
 ## ✨ Features
 - Data Cleaning & Preprocessing: Handles missing values, inconsistencies, and categorical data.
